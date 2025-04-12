@@ -10,7 +10,7 @@ import retrofit2.http.POST
 interface APIService {
 
     @Headers(
-        "Authorization: Bearer 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",
+        "Authorization: Bearer @YOUR_API_KEY",
         "Content-Type: application/json"
     )
     @POST("black-forest-labs/FLUX.1-dev")
